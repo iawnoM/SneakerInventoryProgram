@@ -1,0 +1,10 @@
+.button{
+    -fx-font-family: Inter;
+    -fx-font-size: 25px;
+    -fx-background-color: #1B2631;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #44445b;
+}

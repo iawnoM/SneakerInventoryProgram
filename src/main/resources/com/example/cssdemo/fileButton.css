@@ -1,0 +1,23 @@
+.exportButton {
+    -fx-font-family: Inter;
+    -fx-background-color: #294164;
+    -fx-border-radius: 5;
+}
+
+.exportButton:hover{
+    -fx-background-color: #768da5;
+    color: green;
+}
+
+.deleteButton {
+    -fx-font-family: Inter;
+    -fx-background-color:  #f83b3b;
+    -fx-background-radius: 25;
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.deleteButton:hover {
+    -fx-background-color: #fa9090
+;
+}

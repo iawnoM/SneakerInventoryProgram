@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="300.0" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #1B2631;" styleClass="backgroundColor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cssdemo.HelloController">
+   <children>
+      <VBox alignment="CENTER" layoutX="100.0" minHeight="200.0" minWidth="300.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="invalidKey" textFill="#22c947" />
+            <TextArea fx:id="editableKey" maxHeight="30.0" maxWidth="200.0" minHeight="30.0" opacity="0.5" prefHeight="30.0" prefWidth="200.0" promptText="                Enter Key">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+            <Button fx:id="button" alignment="CENTER" contentDisplay="TOP" graphicTextGap="0.0" maxHeight="30.0" minHeight="30.0" mnemonicParsing="false" onAction="#login" prefHeight="30.0" prefWidth="200.0" stylesheets="@button.css" text="Activate" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima" size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="buttonFormat" />
+                  <String fx:value="backgroundColor" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="269.0" prefWidth="900.0">
+         <children>
+            <StackPane>
+               <children>
+                  <QuadCurve controlX="-50.0" controlY="-100.0" endX="50.0" fill="#5b6864" startX="-50.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" />
+                  <QuadCurve controlX="-50.0" controlY="-100.0" endX="50.0" fill="#5b6864" layoutX="460.0" layoutY="60.0" rotate="180.0" startX="-50.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" />
+               </children>
+            </StackPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
